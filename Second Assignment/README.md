@@ -1,0 +1,2 @@
+# Mock Testing Assignment: Employee Repository
+This project demonstrates how to use unittest.mock to test a Python class (EmployeeRepository) that fetches data from an API. The tests in test_employee_repository.py mock the requests.get call to avoid real network requests. It covers successful data retrieval (HTTP 200), sorting logic, and error handling (non-200 responses). To install dependencies, run: pip install requests.
